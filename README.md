@@ -1,6 +1,10 @@
 Spent an evening hacking in support for my Bluetooth headphones on muOS/RGXX35SP, putting this out there in hopes it'll help someone.
 
-This isn't a proper solution, there's no user-facing configuration tools or anything and I just stole the binaries I needed from Knulli :)
+To pair BT devices and select audio output I have included some AI-generated scripts I massaged into working in
+  * Applications -> Task Toolkit -> Bluetooth
+  * Applications -> Task Toolkit -> Audio Output Select
+
+I just stole the binaries I needed from Knulli :)
 
 I hacked in a script for the SP to start bluetooth on boot. I've taken zero time to understand how muOS is supposed to work so this is definitely wrong.
 
